@@ -1,0 +1,8 @@
+def check_first_last_equal(lst):
+    return lst and lst[0] == lst[-1]
+
+# Example usage:
+my_list = [10,20,30,40,10]
+result = check_first_last_equal(my_list)
+
+print("The first and last numbers of the list are the same." if result else "The first and last numbers of the list are different.")
