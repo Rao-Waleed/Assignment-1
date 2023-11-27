@@ -1,0 +1,6 @@
+def is_palindrome(number):
+    return str(number) == str(number)[::-1]
+
+# Example usage:
+number_to_check = 121
+print(f"{number_to_check} is {'a' if is_palindrome(number_to_check) else 'not a'} palindrome")
