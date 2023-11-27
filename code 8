@@ -1,0 +1,8 @@
+# Example lists
+list1 = [10, 20, 25, 30, 35]
+list2 = [40, 45, 60, 75, 90]
+
+# Simplest form: Create a new list with elements greater than 3 from both lists
+new_list = [x for x in list1 + list2 if x > 3]
+
+print(new_list)
